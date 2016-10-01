@@ -18,8 +18,8 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-/*var routes = require('./controllers/cats_controller.js');
-app.use('/', routes);*/
+var routes = require('./controllers/burgers_controller.js');
+app.use('/', routes);
 
 
 // Listener
