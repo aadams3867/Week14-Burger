@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	min-height: 100%;
+	line-height: 150%;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+img {
+	height: 320px;
+	width: 234px;
+}
