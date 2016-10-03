@@ -18,7 +18,7 @@ router.get('/burgers', function (req, res) {
 });
 
 router.post('/burgers/create', function (req, res) {
-	burger.create(['name'], [req.body.name], function () {
+	burger.create(['burger_name'], [req.body.name], function () {
 		res.redirect('/burgers');
 	});
 });
