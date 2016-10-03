@@ -3,6 +3,7 @@
 }
 
 body {
+/*	background-color: #D3D3D3;*/
 	min-height: 100%;
 	line-height: 150%;
 	font-family: Arial, sans-serif;
@@ -12,4 +13,12 @@ body {
 img {
 	height: 320px;
 	width: 234px;
+}
+
+ul {
+	list-style: none;
+}
+
+div input {  /*Add a Burger text input width*/
+	width: 450px;
 }
